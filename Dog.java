@@ -3,7 +3,7 @@ abstract class Animal{
 }
 public  class Dog extends Animal{
 	public  void sound(){
-	System.out.println("woof");
+	System.out.println("woof is sound of dog");
 	
 }
 
