@@ -1,7 +1,7 @@
-abstract class Animal{
+abstract class Animal2{
 	public abstract void sound();
 }
-public  class Dog extends Animal{
+public  class Dog extends Animal2{
 	public  void sound(){
 	System.out.println("woof is sound of dog");
 	
@@ -9,7 +9,7 @@ public  class Dog extends Animal{
 
 
 public static void main (String[] args) {
-	Animal obj1=new Dog();
+	Animal2 obj1=new Dog();
 	obj1.sound();
 }
 }
